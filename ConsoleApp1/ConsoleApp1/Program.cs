@@ -4,10 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("There once was a man named John");
-            Console.WriteLine("He was 80 years old");
-            Console.WriteLine("He really liked the name John");
-            Console.WriteLine("But didn't like being 80");
+            string characterName = "Katie";
+            int characterAge = 80;
+
+            Console.WriteLine("There once was a girl named " + characterName);
+            Console.WriteLine("She was " + characterAge + " years old");
+            Console.WriteLine("She really liked the name " + characterName);
+            Console.WriteLine("But didn't like being " + characterAge);
 
             Console.ReadLine();
         }
